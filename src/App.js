@@ -1,9 +1,14 @@
 import "./App.css";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1> Welcome To Kashur Scientist.........</h1>
+      <Navbar />
+      <h1 className="header"> Welcome To Kashur Scientist</h1>
+      <Footer />
+
     </div>
   );
 }
