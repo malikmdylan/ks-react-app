@@ -20,8 +20,8 @@ function App() {
 
 
             <div className="navbar-right">
-              <ul>
-                <li className="nav-elements">
+              <ul className="navbar-links">
+                <li >
                   <Link to="/"> Home </Link>{" "}
                 </li>{" "}
                 <li>
