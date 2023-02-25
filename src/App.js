@@ -1,15 +1,53 @@
-import "./App.css";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contacts from "./Contacts";
+import "./index.css";
+import "./index.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h1 className="header"> Welcome To Kashur Scientist</h1>
-      <Footer />
+    <Router>
+      <div>
+        <header>
+          <nav className="navbar">
+            <div className="navbar-left">
+              <h1 className="comp"> Kashur Scientist..... </h1>{" "}
+            </div>{" "}
 
-    </div>
+
+
+            <div className="navbar-right">
+              <ul>
+                <li className="nav-elements">
+                  <Link to="/"> Home </Link>{" "}
+                </li>{" "}
+                <li>
+                  <Link to="/about"> About </Link>{" "}
+                </li>{" "}
+                <li>
+                  <Link to="/contact"> Contact </Link>{" "}
+                </li>{" "}
+              </ul>{" "}
+            </div>{" "}
+            <div className="navbar-toggle">
+              <span></span> 
+              <span></span>
+               <span></span>{""}
+            </div>{" "}
+          </nav>{" "}
+        </header>{" "}
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />{" "}
+            <Route path="/about" element={<About />} />{" "}
+            <Route path="/contact" element={<Contacts />} />{" "}
+          </Routes>{" "}
+        </main>{" "}
+      </div>{" "}
+    </Router>
   );
 }
 

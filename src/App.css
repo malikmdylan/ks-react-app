@@ -1,31 +1,44 @@
-*{
-  background-color: black;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgb(80, 16, 104);
-  margin-top: 20vh;
-  margin-left: 50vh;
-  
-  text-decoration: underline;
+nav {
+  background-color: white;
 }
 
-.footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  color: white;
-  margin-top: 100%;
-  margin-left: 70vh;
-  margin-right: 50vh;
-  
-  text-decoration: underline;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.company{
-  text-decoration: underline;
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color:red;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
 }
