@@ -1,10 +1,10 @@
 import React from 'react'
+import ExplorCourses from './components/ExplorCourses'
 
 const Home = () => {
   return (
     <div>
-        <h1>Home</h1>
-        <p>lorem xdctyvubhinj</p>
+      <ExplorCourses />
     </div>
   )
 }
