@@ -10,7 +10,11 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "swiper": "^9.1.0",
+=======
+    "swiper": "^9.0.5",
+>>>>>>> 7105642deec0640c19aecfff36c4a9fe00de001c
     "web-vitals": "^2.1.4"
   },
   "scripts": {
