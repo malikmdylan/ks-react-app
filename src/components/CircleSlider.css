@@ -1,0 +1,113 @@
+.swiper {
+ 
+    height: 80vh;
+    width:70vw;
+    
+    
+    display: flex;
+    flex-direction: coloumn;
+    flex-direction: space-around;
+  }
+  
+   .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffd21b;
+    margin-top: 100px;
+   
+    
+    /* background: #fff; */
+   
+  
+     height:250;
+     width:50px;
+  /* to change the width of slide change the width mentioned above */
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    
+   
+   
+   
+    
+  } 
+  
+  .circular-swiper-slide
+  {
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:13em;
+    width:13em;
+    
+    background-color: aliceblue;
+  
+  }
+  
+  .circular-swiper {
+   
+    height: 80vh;
+    width:80vw;
+    
+    
+    display: flex;
+    flex-direction: space-around;
+  }
+
+  .text
+  {
+    font-size:109px;
+    font-weight: 1000;
+  }
+
+  .below-circle-text
+{
+  color:rgba(17, 20, 18, 0.915);
+  font-size: 50px;
+  font-weight: 300px;
+  margin-top:30px;
+}
+
+  @media only screen and (max-width:788px){
+    .circular-swiper-slide
+  {
+    border-radius:50%;
+    
+    height:6em;
+    width:6em;
+    
+    background-color: aliceblue;
+  
+  }
+  
+  .circular-swiper {
+   
+    height: 80vh;
+    width:80vw;
+    
+    
+    display: flex;
+    flex-direction: space-around;
+  }
+
+  .text
+  {
+    font-size:50px;
+    font-weight: 950px;
+    margin-bottom: 20px;
+   
+  }
+  .below-circle-text
+{
+  color:rgba(17, 20, 18, 0.915);
+  font-size: 25px;
+  
+  margin-top:30px;
+}
+    
+    
+}
+
